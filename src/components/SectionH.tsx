@@ -70,7 +70,7 @@ const SectionH = () => {
       </div>
 
       <img
-        className="absolute bottom-0 right-0 left-0 w-full"
+        className="absolute bottom-0 right-0 left-0 w-screen"
         src={orangeCurve}
         alt="bottom curve"
       />

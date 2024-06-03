@@ -6,7 +6,7 @@ const SectionG = () => {
   return (
     <div className="relative bg-gradient-to-b from-[#0C0C0c] to-[#202229] min-h-screen flex flex-col pt-2 md:pt-8">
         <div className='bg-[#0C0C0c] h-[4px] w-full absolute -top-[2px] right-0 left-0' />
-      <img className='absolute top-0 object-cover px-10  lg:px-28' src={footerImg} alt="background image" />
+      <img className='w-screen absolute top-0 object-cover px-10  lg:px-28' src={footerImg} alt="background image" />
       
       <div className="relative flex flex-col items-center px-10  lg:px-28">
             <h3 className='text-[#FFFFFF]  pt-2 md:pt-6 text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>

@@ -15,208 +15,210 @@ const Main = () => {
       {/* Desktop  */}
       <div className="hidden md:flex flex-col justify-center items-center">
         <h1 className="flex flex-col items-center font-bold text-[1.2rem] leading-[24px] md:leading-[34px] lg:leading-[64px] md:text-[2rem] pt-4 md:pt-8 lg:text-[3.5rem] ">
-        <span className=" flex items-center">
-          Finding the right fit
-          <img
-            src={avatar}
-            alt="image-icon"
-            className="inline-block w-[68px] h-[43px] ml-2"
-          />
-          has
-        </span>
+          <span className=" flex items-center">
+            Finding the right fit
+            <img
+              src={avatar}
+              alt="image-icon"
+              className="inline-block w-[68px] h-[43px] ml-2"
+            />
+            has
+          </span>
 
-        <span className="flex items-center">never been easier.</span>
-      </h1>
+          <span className="flex items-center">never been easier.</span>
+        </h1>
 
-      {/* paragraph */}
-      <p className="pt-6 text-[0.9rem] lg:text-[1.4rem] font-normal lg:leading-[32px] text-center">
-        With our rigorous pre-vetting process, you'll never have to <br /> worry
-        about finding the ideal candidate ever again.
-      </p>
+        {/* paragraph */}
+        <p className="pt-6 text-[0.9rem] lg:text-[1.4rem] font-normal lg:leading-[32px] text-center">
+          With our rigorous pre-vetting process, you'll never have to <br />{" "}
+          worry about finding the ideal candidate ever again.
+        </p>
 
-      {/* search input */}
-      <div className="flex justify-between bg-[#ffffff] border-[#f0f0f0] md:w-[570px] border-[1.5px] pl-4 h-[50px] md:h-[74px] rounded-[15px] mt-8">
-        <div className="flex items-center gap-x-1 md:flex-grow">
-          <p className="font-semibold text-[1rem] leading-[16px] hidden md:block">
-            Looking for{" "}
-          </p>
-          <input
-            className="outline-none font-medium text-[16px] leading-[16px] text-[#959595] md:flex-grow"
-            placeholder="design |"
-            type="text"
-          />
-        </div>
+        {/* search input */}
+        <div className="flex justify-between bg-[#ffffff] border-[#f0f0f0] md:w-[570px] border-[1.5px] pl-4 h-[50px] md:h-[74px] rounded-[15px] mt-8">
+          <div className="flex items-center gap-x-1 md:flex-grow">
+            <p className="font-semibold text-[1rem] leading-[16px] hidden md:block">
+              Looking for{" "}
+            </p>
+            <input
+              className="outline-none font-medium text-[16px] leading-[16px] text-[#959595] md:flex-grow"
+              placeholder="design |"
+              type="text"
+            />
+          </div>
           <button className="bg-[#FFBE2E] h-[50px] md:h-[74px] w-[50px] md:w-[74px] rounded-[15px] flex justify-center items-center">
             <img src={vector} alt="vector icon" />
           </button>
-      </div>
+        </div>
 
-      {/* Department tab */}
-      <div className="bg-[#f8f8f8] flex justify-center items-center mt-8 mb-8 rounded-[15px]">
-        <div className="flex flex-col py-2 px-6 w-full">
-          <div className="flex justify-center bg-[#D2D2D2] w-full max-w-[343px] mx-auto rounded-[15px]">
-            <button
-              onClick={() => setTab(0)}
-              className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
-                tab === 0
-                  ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
-                  : "font-medium text-[#202229]"
-              }`}
-            >
-              IT & Development
-            </button>
-            <button
-              onClick={() => setTab(1)}
-              className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
-                tab === 1
-                  ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
-                  : "font-medium text-[#202229]"
-              }`}
-            >
-              Design and Creative
-            </button>
+        {/* Department tab */}
+        <div className="bg-[#f8f8f8] flex justify-center items-center mt-8 mb-8 rounded-[15px]">
+          <div className="flex flex-col py-2 px-6 w-full">
+            <div className="flex justify-center bg-[#D2D2D2] w-full max-w-[343px] mx-auto rounded-[15px]">
+              <button
+                onClick={() => setTab(0)}
+                className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
+                  tab === 0
+                    ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
+                    : "font-medium text-[#202229]"
+                }`}
+              >
+                IT & Development
+              </button>
+              <button
+                onClick={() => setTab(1)}
+                className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
+                  tab === 1
+                    ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
+                    : "font-medium text-[#202229]"
+                }`}
+              >
+                Design and Creative
+              </button>
+            </div>
+
+            {tab === 0 && (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-y-2 gap-x-44">
+                {departments.map((department, index) => (
+                  <p
+                    key={index}
+                    className="text-left text-[0.9rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
+                  >
+                    {department}
+                  </p>
+                ))}
+
+                <p className="font-medium text-[#202229] text-[1rem] cursor-pointer">
+                  Explore More
+                </p>
+              </div>
+            )}
+
+            {tab === 1 && (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-y-2 gap-x-44">
+                {departments.map((department, index) => (
+                  <p
+                    key={index}
+                    className="text-left text-[0.9rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
+                  >
+                    {department}
+                  </p>
+                ))}
+
+                <p className="font-medium text-[#202229] text-[1rem] cursor-pointer">
+                  Explore More
+                </p>
+              </div>
+            )}
           </div>
+        </div>
 
-          {tab === 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-y-2 gap-x-44">
-              {departments.map((department, index) => (
-                <p
-                  key={index}
-                  className="text-left text-[0.9rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
-                >
-                  {department}
-                </p>
-              ))}
-
-              <p className="font-medium text-[#202229] text-[1rem] cursor-pointer">
-                Explore More
-              </p>
-            </div>
-          )}
-
-          {tab === 1 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-y-2 gap-x-44">
-              {departments.map((department, index) => (
-                <p
-                  key={index}
-                  className="text-left text-[0.9rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
-                >
-                  {department}
-                </p>
-              ))}
-
-              <p className="font-medium text-[#202229] text-[1rem] cursor-pointer">
-                Explore More
-              </p>
-            </div>
-          )}
+        <div className="absolute bottom-0 right-0 left-0">
+          <img
+            className="object-cover w-[100%]"
+            src={union}
+            alt="bottom image"
+          />
         </div>
       </div>
 
-      <div className="absolute bottom-0 right-0 left-0">
-        <img className="object-cover w-[100%]" src={union} alt="bottom image" />
-      </div>
-      </div>
-      
       {/* Mobile  */}
       <div className="flex flex-col justify-center items-center md:hidden px-4 w-full max-w-xs mx-auto">
-    <h1 className="flex flex-col items-center font-bold text-[1.2rem] leading-[24px] pt-4 text-center">
-    <span className="flex items-center">
-      Finding the right fit
-      <img
-        src={avatar}
-        alt="image-icon"
-        className="inline-block w-[68px] h-[43px] ml-2"
-      />
-      has
-    </span>
-    <span className="flex items-center">never been easier.</span>
-  </h1>
+        <h1 className="flex flex-col items-center font-bold text-[1.2rem] leading-[24px] pt-4 text-center">
+          <span className="flex items-center">
+            Finding the right fit
+            <img
+              src={avatar}
+              alt="image-icon"
+              className="inline-block w-[68px] h-[43px] ml-2"
+            />
+            has
+          </span>
+          <span className="flex items-center">never been easier.</span>
+        </h1>
 
-  {/* paragraph */}
-  <p className="pt-6 text-[0.9rem] font-normal text-center">
-    With our rigorous pre-vetting process, you'll never have to worry
-    about finding the ideal candidate ever again.
-  </p>
+        {/* paragraph */}
+        <p className="pt-6 text-[0.9rem] font-normal text-center">
+          With our rigorous pre-vetting process, you'll never have to worry
+          about finding the ideal candidate ever again.
+        </p>
 
-  {/* search input */}
-  <div className="flex justify-between bg-[#ffffff] border-[#f0f0f0] border-[1.5px] pl-4 h-[40px] rounded-[15px] mt-8 w-full">
-    <div className="flex items-center gap-x-1 flex-grow">
-      <input
-        className="outline-none font-medium text-[16px] leading-[16px] text-[#959595] w-full"
-        placeholder="Looking for design |"
-        type="text"
-      />
-    </div>
-    <button className="bg-[#FFBE2E] h-[40px] w-[40px] rounded-[15px] flex justify-center items-center">
-      <img src={vector} alt="vector icon" />
-    </button>
-  </div>
-
-
-  {/* Department tab */}
-  <div className="bg-[#f8f8f8] flex justify-center items-center mt-8 mb-8 rounded-[15px]">
-        <div className="flex flex-col py-2 px-6 w-full">
-          <div className="flex justify-center bg-[#D2D2D2] w-full max-w-[343px] mx-auto rounded-[15px]">
-            <button
-              onClick={() => setTab(0)}
-              className={`px-4 py-2 text-[0.7rem] text-center leading-[13px] ${
-                tab === 0
-                  ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
-                  : "font-medium text-[#202229]"
-              }`}
-            >
-              IT & Development
-            </button>
-            <button
-              onClick={() => setTab(1)}
-              className={`px-4 py-2 text-[0.7rem] text-center ${
-                tab === 1
-                  ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
-                  : "font-medium text-[#202229]"
-              }`}
-            >
-              Design and Creative
-            </button>
+        {/* search input */}
+        <div className="flex justify-between bg-[#ffffff] border-[#f0f0f0] border-[1.5px] pl-4 h-[40px] rounded-[15px] mt-8 w-full">
+          <div className="flex items-center gap-x-1 flex-grow">
+            <input
+              className="outline-none font-medium text-[16px] leading-[16px] text-[#959595] w-full"
+              placeholder="Looking for design |"
+              type="text"
+            />
           </div>
+          <button className="bg-[#FFBE2E] h-[40px] w-[40px] rounded-[15px] flex justify-center items-center">
+            <img src={vector} alt="vector icon" />
+          </button>
+        </div>
 
-          {tab === 0 && (
-            <div className="grid grid-cols-2  mt-4 gap-y-2 gap-x-4">
-              {departments.map((department, index) => (
-                <p
-                  key={index}
-                  className="text-left text-[0.7rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
-                >
-                  {department}
-                </p>
-              ))}
-
-              <p className="font-medium text-[#202229] text-[.7rem] cursor-pointer">
-                Explore More
-              </p>
+        {/* Department tab */}
+        <div className="bg-[#f8f8f8] flex justify-center items-center mt-8 mb-8 rounded-[15px]">
+          <div className="flex flex-col py-2 px-6 w-full">
+            <div className="flex justify-center bg-[#D2D2D2] w-full max-w-[343px] mx-auto rounded-[15px]">
+              <button
+                onClick={() => setTab(0)}
+                className={`px-4 py-2 text-[0.7rem] text-center leading-[13px] ${
+                  tab === 0
+                    ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
+                    : "font-medium text-[#202229]"
+                }`}
+              >
+                IT & Development
+              </button>
+              <button
+                onClick={() => setTab(1)}
+                className={`px-4 py-2 text-[0.7rem] text-center ${
+                  tab === 1
+                    ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
+                    : "font-medium text-[#202229]"
+                }`}
+              >
+                Design and Creative
+              </button>
             </div>
-          )}
 
-          {tab === 1 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-y-2 gap-x-44">
-              {departments.map((department, index) => (
-                <p
-                  key={index}
-                  className="text-left text-[0.7rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
-                >
-                  {department}
+            {tab === 0 && (
+              <div className="grid grid-cols-2  mt-4 gap-y-2 gap-x-4">
+                {departments.map((department, index) => (
+                  <p
+                    key={index}
+                    className="text-left text-[0.7rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
+                  >
+                    {department}
+                  </p>
+                ))}
+
+                <p className="font-medium text-[#202229] text-[.7rem] cursor-pointer">
+                  Explore More
                 </p>
-              ))}
+              </div>
+            )}
 
-              <p className="font-medium text-[#202229] text-[.7rem] cursor-pointer">
-                Explore More
-              </p>
-            </div>
-          )}
+            {tab === 1 && (
+              <div className="grid grid-cols-2  mt-4 gap-y-2 gap-x-4">
+                {departments.map((department, index) => (
+                  <p
+                    key={index}
+                    className="text-left text-[0.7rem] font-normal text-[#959595] hover:text-black hover:font-medium cursor-pointer"
+                  >
+                    {department}
+                  </p>
+                ))}
+
+                <p className="font-medium text-[#202229] text-[.7rem] cursor-pointer">
+                  Explore More
+                </p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
-
-</div>
 
       <div className="absolute bottom-0 right-0 left-0 md:hidden">
         <img className="object-cover w-[100%]" src={union} alt="bottom image" />
