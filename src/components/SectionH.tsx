@@ -20,7 +20,7 @@ const SectionH = () => {
         </div>
 
         <div className="col-span-2 pl-6 py-4 rounded-lg bg-white shadow-lg">
-          <div className="flex gap-x-8">
+          <div className="flex items-center justify-between gap-x-8">
             <div className="">
               <h3 className="font-bold text-[1.7rem] leading-[34px] md:text-[3rem] md:leading-[64px] pb-4 flex-nowrap">
                 Onboard without <br /> the risk.
@@ -61,7 +61,7 @@ const SectionH = () => {
             {/* Risk image  */}
 
             <img
-              className="object-cover h-[509px] hidden lg:block"
+              className="object-cover h-[509px] hidden md:block"
               src={riskImage}
               alt="risk image portray"
             />

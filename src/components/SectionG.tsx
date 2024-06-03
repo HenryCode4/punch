@@ -16,7 +16,7 @@ const SectionG = () => {
             <img className='object-cover w-[30px] h-[30px] sm:w-[45px] sm:h-[45px] md:w-[53px] md:h-[53px] lg:w-[73px] lg:h-[73px] mt-1 sm:mt-6' src={movedown} alt="down direction icon" />
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-3 pt-16 md:pt-48 md:pb-32 px-10 mt-10  lg:px-28'>
+      <div className='grid grid-cols-1 md:grid-cols-3 pt-16 md:pt-48 md:pb-32 px-10 md:mt-10  lg:px-28'>
         <div className='flex flex-col items-start'>
             <img className='w-[120px] h-[29px] object-cover' src={logo} alt="app logo" />
 
