@@ -9,7 +9,7 @@ import curveup from "../assets/curveup.svg"
 const SectionC = () => {
   return (
     <div className="relative bg-[#202229] flex flex-col pb-16">
-      <img className="w-[350px] md:w-full absolute top-0 left-0 right-0" src={curveup} alt="top curve" />
+      <img className="w-full absolute top-0 left-0 right-0" src={curveup} alt="top curve" />
       <img
         className=" w-[100px] h-[100px] absolute z-[99] top-1 right-5"
         src={mark}
