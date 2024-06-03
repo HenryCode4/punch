@@ -53,7 +53,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-4 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group} alt="" />
               </div>
           </div>
@@ -94,7 +94,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-4 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group2} alt="" />
               </div>
           </div>
@@ -134,7 +134,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-4 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group3} alt="" />
               </div>
           </div>
