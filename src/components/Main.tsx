@@ -56,7 +56,7 @@ const Main = () => {
           <div className="flex justify-center bg-[#D2D2D2] w-full max-w-[343px] mx-auto rounded-[15px]">
             <button
               onClick={() => setTab(0)}
-              className={`px-4 py-2 text-[1rem] text-center leading-[23px] ${
+              className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
                 tab === 0
                   ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
                   : "font-medium text-[#202229]"
@@ -66,7 +66,7 @@ const Main = () => {
             </button>
             <button
               onClick={() => setTab(1)}
-              className={`px-4 py-2 text-[1rem] text-center leading-[23px] ${
+              className={`px-4 py-2 text-[0.7rem] md:text-[1rem] text-center leading-[23px] ${
                 tab === 1
                   ? "font-semibold bg-[#c7f4c2] rounded-[15px]"
                   : "font-medium text-[#202229]"

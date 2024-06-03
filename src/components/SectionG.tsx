@@ -9,11 +9,11 @@ const SectionG = () => {
       <img className='absolute top-0 object-cover px-10  lg:px-28' src={footerImg} alt="background image" />
       
       <div className="relative flex flex-col items-center px-10  lg:px-28">
-            <h3 className='text-[#FFFFFF] pt-6 text-[1.3rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>
+            <h3 className='text-[#FFFFFF]  md:pt-6 text-[1.1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>
             Need a job done, and done <br /> well? Get started
             </h3>
 
-            <img className='object-cover w-[35px] h-[35px] sm:w-[45px] sm:h-[45px] md:w-[53px] md:h-[53px] lg:w-[73px] lg:h-[73px] mt-1 sm:mt-6' src={movedown} alt="down direction icon" />
+            <img className='object-cover w-[30px] h-[30px] sm:w-[45px] sm:h-[45px] md:w-[53px] md:h-[53px] lg:w-[73px] lg:h-[73px] mt-1 sm:mt-6' src={movedown} alt="down direction icon" />
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-3 pt-16 md:pt-48 md:pb-32 px-10  lg:px-28'>
