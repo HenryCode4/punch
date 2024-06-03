@@ -3,7 +3,7 @@ import curveright from '../assets/curveupright.svg'
 
 const SectionF = () => {
   return (
-    <div className="relative bg-[#f3f3f3] min-h-screen flex flex-col pt-16 pb-24 border-b-0">
+    <div className="relative bg-[#f3f3f3] min-h-screen w-full flex flex-col pt-16 pb-24 border-b-0">
       <div className="flex flex-col items-center">
         <h3 className="font-bold text-[1.5rem] md:text-[3.2rem] leading-[64px]">
         Frequently asked questions
