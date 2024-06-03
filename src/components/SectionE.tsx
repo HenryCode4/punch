@@ -11,9 +11,9 @@ import group3 from "../assets/group3.png";
 
 const SectionE = () => {
   return (
-    <div className="relative bg-[#ffffff] min-h-screen flex flex-col pt-16 pb-16">
+    <div className="relative bg-[#ffffff] min-h-screen flex flex-col pt-4 md:pt-16 pb-16">
       <div className="flex flex-col items-center  z-[999] px-10  lg:px-28">
-        <h3 className="font-bold text-[3.2rem] leading-[64px]">
+        <h3 className="font-bold text-[1.4rem] md:text-[3.2rem] leading-[64px]">
           Start your journey today.
         </h3>
 
@@ -24,27 +24,27 @@ const SectionE = () => {
             alt="section image"
           />
 
-          <div className="w-full flex justify-between relative z-[999] pt-16 pl-2">
+          <div className="w-full flex justify-between relative z-[999] pt-6 md:pt-16 pl-2">
             <div className="flex pr-2 overflow-hidden">
               <img
-                className="w-[51px] h-[83px]"
+                className="w-[35px] h-[35px] md:w-[51px] md:h-[61px]"
                 src={one}
                 alt="Label number image"
               />
-              <div>
-                <h3 className="font-semibold text-[2.1rem] leading-[44px]">
+              <div className="pl-3">
+                <h3 className="font-semibold text-[1.2rem] md:text-[2.1rem] leading-[23px] md:leading-[44px]">
                   Find your next star <br /> performer.
                 </h3>
-                <p className="font-normal text-[1rem] leading-[24px] pt-4 pb-4">
+                <p className="font-normal text-[0.8rem] md:text-[1rem] leading-[24px] pt-4 pb-4">
                   Explore the vast Zwilt marketplace to find the candidate{" "}
                   <br />
                   that meets your needs.
                 </p>
                 <div className="flex items-center gap-x-2">
                   <button>
-                    <img src={join} alt="join button image" />
+                    <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
-                  <span className="font-medium text-[0.9rem] leading-[12px]">
+                  <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">
                     Join Now
                   </span>
                 </div>
@@ -70,22 +70,22 @@ const SectionE = () => {
           <div className="w-full flex justify-between relative z-[999] pt-16 pl-2">
             <div className="flex pr- overflow-hidden">
               <img
-                className="w-[51px] h-[83px] pr-2"
+                className="w-[35px] h-[35px] md:w-[51px] md:h-[61px] pr-2"
                 src={two}
                 alt="Label number image"
               />
-              <div>
-                <h3 className="font-semibold text-[2.1rem] leading-[44px]">
+              <div className="pl-3">
+              <h3 className="font-semibold text-[1.2rem] md:text-[2.1rem] leading-[23px] md:leading-[44px]">
                 Evaluate to your <br /> heart’s content.
                 </h3>
-                <p className="font-normal text-[1rem] leading-[24px] pt-4 pb-4">
+                <p className="font-normal text-[0.8rem] md:text-[1rem] leading-[24px] pt-4 pb-4">
                 Assess the candidate through work history, transparent <br /> tests and video interviews.
                 </p>
                 <div className="flex items-center gap-x-2">
                   <button>
-                    <img src={join} alt="join button image" />
+                    <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
-                  <span className="font-medium text-[0.9rem] leading-[12px]">
+                  <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">
                   Browse More
                   </span>
                 </div>
@@ -110,22 +110,22 @@ const SectionE = () => {
           <div className="w-full flex justify-between relative z-[999] pt-16 pl-2">
             <div className="flex pr-2 overflow-hidden">
               <img
-                className="w-[51px] h-[83px] pr-2"
+                className="w-[35px] h-[35px] md:w-[51px] md:h-[61px] pr-2"
                 src={three}
                 alt="Label number image"
               />
-              <div>
-                <h3 className="font-semibold text-[2.1rem] leading-[44px]">
+              <div className="pl-3">
+              <h3 className="font-semibold text-[1.2rem] md:text-[2.1rem] leading-[23px] md:leading-[44px]">
                 Start building <br /> your team.
                 </h3>
-                <p className="font-normal text-[1rem] leading-[24px] pt-4 pb-4">
+                <p className="font-normal text-[0.8rem] md:text-[1rem] leading-[24px] pt-4 pb-4">
                 Onboard your candidate right away and start <br /> creating the next big thing.
                 </p>
                 <div className="flex items-center gap-x-2">
                   <button>
-                    <img src={join} alt="join button image" />
+                    <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
-                  <span className="font-medium text-[0.9rem] leading-[12px]">
+                  <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">
                     Join Now
                   </span>
                 </div>

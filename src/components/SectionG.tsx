@@ -9,7 +9,7 @@ const SectionG = () => {
       <img className='absolute top-0 object-cover px-10  lg:px-28' src={footerImg} alt="background image" />
       
       <div className="relative flex flex-col items-center px-10  lg:px-28">
-            <h3 className='text-[#FFFFFF]  md:pt-6 text-[1.1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>
+            <h3 className='text-[#FFFFFF]  pt-2 md:pt-6 text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>
             Need a job done, and done <br /> well? Get started
             </h3>
 

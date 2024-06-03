@@ -20,7 +20,7 @@ function App() {
      <SectionE />
      <SectionH />
      <SectionF />
-     <SectionG />
+     <SectionG /> 
     </>
   )
 }

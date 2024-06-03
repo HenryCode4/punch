@@ -5,9 +5,9 @@ import curveblack from "../assets/curveblack.png";
 const SectionD = () => {
   return (
     <div className="relative bg-[#ffffff] min-h-screen flex flex-col pb-16 z-[99]">
-      <img className="absolute top-0 left-0" src={curveblack} alt="top curve" />
-
-      {/* Heading  */}
+      <img className="absolute top-0 left-0 w-full" src={curveblack} alt="top curve" />
+      <div className="absolute -top-[1px] right-0 left-0 w-full h-[2px] bg-[#202229]"></div>
+      {/* Desktop /  Mobile*/}
       <div className="flex flex-col items-start  z-[999] pt-32 px-10  lg:px-28">
         <h1 className="font-bold text-[1.3rem] leading-[32px] md:text-[3.2rem] md:leading-[64px]">
           How we ensure you’re <br /> in good hands.
@@ -72,6 +72,7 @@ const SectionD = () => {
           </p>
         </div>
       </div>
+
     </div>
   );
 };
