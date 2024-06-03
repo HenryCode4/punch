@@ -61,7 +61,7 @@ const SectionH = () => {
             {/* Risk image  */}
 
             <img
-              className="object-cover h-[509px] hidden md:block"
+              className="object-cover hidden md:block"
               src={riskImage}
               alt="risk image portray"
             />
