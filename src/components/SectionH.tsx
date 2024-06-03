@@ -4,7 +4,7 @@ import orangeCurve from "../assets/orangeCurve.svg";
 
 const SectionH = () => {
   return (
-    <div className="relative bg-gradient-to-b from-white to-[#f5f6ff] min-h-screen flex flex-col pt-16 pb-20 z-[99]">
+    <div className="relative bg-gradient-to-b from-white to-[#f5f6ff] flex flex-col pt-16 pb-20 z-[99]">
       <div className="grid lg:grid-cols-3 px-10  lg:pl-28">
         <div className=" flex flex-col justify-center items-start">
           <h1 className="font-bold text-[1.7rem] leading-[30px] md:text-[3rem] md:leading-[64px]">

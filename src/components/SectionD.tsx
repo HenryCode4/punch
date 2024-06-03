@@ -4,7 +4,7 @@ import curveblack from "../assets/curveblack.png";
 
 const SectionD = () => {
   return (
-    <div className="relative bg-[#ffffff] min-h-screen flex flex-col pb-16 z-[99]">
+    <div className="relative bg-[#ffffff] flex flex-col pb-16 z-[99]">
       <img className="absolute top-0 left-0 w-full" src={curveblack} alt="top curve" />
       <div className="absolute -top-[1px] right-0 left-0 w-full h-[2px] bg-[#202229]"></div>
       {/* Desktop /  Mobile*/}

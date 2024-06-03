@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 
 const SectionG = () => {
   return (
-    <div className="relative bg-gradient-to-b from-[#0C0C0c] to-[#202229] min-h-screen flex flex-col pt-2 md:pt-8">
+    <div className="relative bg-gradient-to-b from-[#0C0C0c] to-[#202229] flex flex-col pt-2 md:pt-8">
         <div className='bg-[#0C0C0c] h-[4px] w-full absolute -top-[2px] right-0 left-0' />
       <img className='w-full absolute top-0 object-cover px-10  lg:px-28 ' src={footerImg} alt="background image" />
       

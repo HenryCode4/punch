@@ -77,7 +77,7 @@ export const designIt = [
 
 const SectionB = () => {
   return (
-    <div className="relative bg-[#edefff] min-h-screen flex flex-col pt-16 pb-16">
+    <div className="relative bg-[#edefff] flex flex-col pt-16 pb-16">
       <img
         className="absolute -top-6 object-cover w-[100%]"
         src={bgImage}

@@ -11,7 +11,7 @@ import group3 from "../assets/group3.png";
 
 const SectionE = () => {
   return (
-    <div className="relative bg-[#ffffff] min-h-screen flex flex-col pt-4 md:pt-16 pb-16">
+    <div className="relative bg-[#ffffff] flex flex-col pt-4 md:pt-16 pb-16">
       <div className="flex flex-col items-center  z-[999] px-10  lg:px-28">
         <h3 className="font-bold text-[1.4rem] md:text-[3.2rem] leading-[64px]">
           Start your journey today.
