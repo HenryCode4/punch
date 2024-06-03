@@ -19,7 +19,7 @@ const SectionE = () => {
 
         <div className="relative flex flex-col items-start w-full">
           <img
-            className="hidden md:block absolute top-0 inset-0 h-[334px]"
+            className="hidden md:block absolute top-0 inset-0 h-[334px] w-full"
             src={firstNew}
             alt="section image"
           />
@@ -53,7 +53,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-6 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group} alt="" />
               </div>
           </div>
@@ -62,7 +62,7 @@ const SectionE = () => {
 
         <div className="relative flex flex-col items-start w-full mt-6">
           <img
-            className="hidden md:block absolute top-0 inset-0 h-[334px]"
+            className="hidden md:block absolute top-0 inset-0 h-[334px] w-full"
             src={frame2}
             alt="section image"
           />
@@ -94,7 +94,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-6 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group2} alt="" />
               </div>
           </div>
@@ -102,7 +102,7 @@ const SectionE = () => {
 
         <div className="relative flex flex-col items-start w-full mt-6">
           <img
-            className="hidden md:block absolute top-0 inset-0 h-[334px]"
+            className="hidden md:block absolute top-0 inset-0 h-[334px] w-full"
             src={frame3}
             alt="section image"
           />
@@ -134,7 +134,7 @@ const SectionE = () => {
 
 
               {/* Right side image  */}
-              <div className="absolute top-2 right-6 transform -rotate-2 hidden md:block">
+              <div className="absolute top-2 right-0 transform -rotate-2 hidden md:block">
                 <img className="w-[250px] h-[290px] object-cover" src={group3} alt="" />
               </div>
           </div>
