@@ -3,7 +3,6 @@ import curveright from '../assets/curveupright.svg';
 
 const SectionF = () => {
   return (
-  <>
   <div className="relative bg-[#f3f3f3] flex flex-col pt-16 pb-24 border-b-0">
       <div className="flex flex-col items-center">
         <h3 className="font-bold text-[1.5rem] md:text-[3.2rem] leading-[64px]">
@@ -57,9 +56,9 @@ const SectionF = () => {
           </div>
         </div>
       </div>
-    </div>
       <img className=' w-full absolute bottom-0 right-0 left-0' src={curveright} alt="bottom curve" />
-  </>
+    </div>
+  
     
   );
 };
