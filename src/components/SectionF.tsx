@@ -56,7 +56,7 @@ const SectionF = () => {
           </div>
         </div>
       </div>
-      <img className=' w-full absolute bottom-0 -right-2 md:right-0 left-0' src={curveright} alt="bottom curve" />
+      <img className=' w-full absolute bottom-0 right-0 left-0' src={curveright} alt="bottom curve" />
     </div>
   
     
