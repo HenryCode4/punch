@@ -59,7 +59,7 @@ const SectionF = () => {
 
     </div>
 
-    <img className='w-full ' src={curveright} alt="bottom curve" />
+    <img className='w-[100vh] ' src={curveright} alt="bottom curve" />
     </div>
   )
 }
