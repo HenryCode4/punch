@@ -19,7 +19,7 @@ const SectionD = () => {
         </p>
 
         <div className="border-[1px] rounded-[7px] border-[#f0f0f0] flex items-center gap-x-4 px-4 py-2 mt-6 w-full md:w-[635px] shadow-md">
-          <img src={play} alt="" />
+          <img className="cursor-pointer hover:scale-105" src={play} alt="Resume screening button" />
           <p className="font-semibold text-[1rem] text-[#202229] leading-[17px]">
             Step 1:{" "}
             <span className="font-normal text-[1rem] leading-[17px] text-gray-500">
@@ -30,7 +30,7 @@ const SectionD = () => {
 
         <div className="border-[1px] rounded-[7px] border-[#f0f0f0] flex flex-col items-start gap-x-4 px-4 py-2 mt-2 w-full md:w-[635px] shadow-md">
           <div className="flex items-center gap-x-4">
-            <img src={blue} alt="playlist" />
+            <img className="cursor-pointer hover:scale-105" src={blue} alt="playlist" />
             <p className="font-semibold text-[1rem] text-[#202229] leading-[17px]">
             Step 2:{" "}
             <span className="font-normal text-[1rem] leading-[17px] text-gray-500">
@@ -43,7 +43,7 @@ const SectionD = () => {
         </div>
 
         <div className="border-[1px] rounded-[7px] border-[#f0f0f0] flex items-center gap-x-4 px-4 py-2 mt-6 w-full md:w-[635px] shadow-md">
-          <img src={play} alt="" />
+          <img className="cursor-pointer hover:scale-105" src={play} alt="Technical evaluation button" />
           <p className="font-semibold text-[1rem] text-[#202229] leading-[17px]">
             Step 3:{" "}
             <span className="font-normal text-[1rem] leading-[17px] text-gray-500">
@@ -53,7 +53,7 @@ const SectionD = () => {
         </div>
 
         <div className="border-[1px] rounded-[7px] border-[#f0f0f0] flex items-center gap-x-4 px-4 py-2 mt-6 w-full md:w-[635px] shadow-md">
-          <img src={play} alt="" />
+          <img className="cursor-pointer hover:scale-105" src={play} alt="Application review button" />
           <p className="font-semibold text-[1rem] text-[#202229] leading-[17px]">
             Step 4:{" "}
             <span className="font-normal text-[1rem] leading-[17px] text-gray-500">
@@ -63,7 +63,7 @@ const SectionD = () => {
         </div>
 
         <div className="border-[1px] rounded-[7px] border-[#f0f0f0] flex items-center gap-x-4 px-4 py-2 mt-6 w-full md:w-[635px] shadow-md">
-          <img src={play} alt="" />
+          <img className="cursor-pointer hover:scale-105" src={play} alt="Get to work button" />
           <p className="font-semibold text-[1rem] text-[#202229] leading-[17px]">
             Step 5:{" "}
             <span className="font-normal text-[1rem] leading-[17px] text-gray-500">

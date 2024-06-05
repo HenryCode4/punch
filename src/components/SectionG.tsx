@@ -12,8 +12,9 @@ const SectionG = () => {
             <h3 className='text-[#FFFFFF]  pt-2 md:pt-6 text-[1rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-semibold text-center'>
             Need a job done, and done <br /> well? Get started
             </h3>
-
+            <button className='hover:scale-105'>
             <img className='object-cover w-[30px] h-[30px] sm:w-[45px] sm:h-[45px] md:w-[53px] md:h-[53px] lg:w-[73px] lg:h-[73px] mt-1 sm:mt-6' src={movedown} alt="down direction icon" />
+            </button>
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-3 pt-16 md:pt-48 md:pb-32 px-10 md:mt-10  lg:px-28'>
@@ -25,8 +26,8 @@ const SectionG = () => {
             <h4 className='pt-8 text-[1rem] text-white/50'>LINKS AND REDIRECTS</h4>
 
             <div className='flex gap-2 pt-4'>
-                <button className='bg-[#292b34] text-white text-[0.9rem] font-medium leading-[12px] rounded-full px-8 py-3'>Hire now</button>
-                <button className='bg-[#292b34] text-white text-[0.9rem] font-medium leading-[12px] rounded-full px-8 py-3'> Apply now</button>
+                <button className='bg-[#292b34] text-white text-[0.9rem] font-medium leading-[12px] rounded-full px-8 py-3 cursor-pointer hover:scale-105'>Hire now</button>
+                <button className='bg-[#292b34] text-white text-[0.9rem] font-medium leading-[12px] rounded-full px-8 py-3 cursor-pointer hover:scale-105'> Apply now</button>
             </div>
         </div>
 
@@ -36,27 +37,27 @@ const SectionG = () => {
             <div className='grid grid-cols-4 pt-10 md:pt-16 gap-x-10'>
                 <div className='flex flex-col gap-y-4 items-start'>
                     <h4 className='font-semibold text-[0.9rem] leading-[32px] text-[white]/40'>PLATFORM</h4>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Find Work</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Find Talent</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Categories</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>About Us</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Find Work</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Find Talent</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Categories</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>About Us</p>
                 </div>
                 <div className='flex flex-col gap-y-4 items-start'>
                     <h4 className='font-semibold text-[0.9rem] leading-[32px] text-[white]/40'>CATEGORIES</h4>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Data Science</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>IT & Networking</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Web & Mobile</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Data Science</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>IT & Networking</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Web & Mobile</p>
                 </div>
                 <div className='flex flex-col gap-y-4 items-start'>
                     <h4 className='font-semibold text-[0.9rem] leading-[32px] text-[white]/40'>HELP</h4>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>FAQ's</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Contact Us</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>FAQ's</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Contact Us</p>
                 </div>
                 <div className='flex flex-col gap-y-4 items-start'>
                     <h4 className='font-semibold text-[0.9rem] leading-[32px] text-[white]/40'>GET IN TOUCH @</h4>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Instagram</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>LinkedIn</p>
-                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white'>Twitter</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Instagram</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>LinkedIn</p>
+                    <p className='font-normal text-[0.8rem] md:text-[1.13rem] leading-[24px] text-white cursor-pointer hover:scale-105'>Twitter</p>
                 </div>
             </div>
         </div>

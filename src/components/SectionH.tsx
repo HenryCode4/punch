@@ -48,7 +48,7 @@ const SectionH = () => {
 
               <div className="flex items-center gap-x-2 py-8">
                 <img
-                  className="w-[40px] h-[40px]"
+                  className="w-[40px] h-[40px] cursor-pointer hover:scale-105"
                   src={join}
                   alt="direction to learn more"
                 />

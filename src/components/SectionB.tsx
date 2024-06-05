@@ -365,7 +365,7 @@ const SectionB = () => {
           <div className="flex space-x-4 items-center pt-10 w-full">
             <div className="flex items-center gap-3 cursor-pointer w-[50%]">
               <img
-                className="w-[40px] h-[40px]"
+                className="w-[40px] h-[40px] cursor-pointer hover:scale-105"
                 src={explore}
                 alt="explore more"
               />

@@ -41,7 +41,7 @@ const SectionE = () => {
                   that meets your needs.
                 </p>
                 <div className="flex items-center gap-x-2">
-                  <button>
+                  <button className="cursor-pointer hover:scale-105">
                     <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
                   <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">
@@ -82,7 +82,7 @@ const SectionE = () => {
                 Assess the candidate through work history, transparent <br /> tests and video interviews.
                 </p>
                 <div className="flex items-center gap-x-2">
-                  <button>
+                  <button className="cursor-pointer hover:scale-105">
                     <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
                   <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">
@@ -122,7 +122,7 @@ const SectionE = () => {
                 Onboard your candidate right away and start <br /> creating the next big thing.
                 </p>
                 <div className="flex items-center gap-x-2">
-                  <button>
+                  <button className="cursor-pointer hover:scale-105">
                     <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={join} alt="join button image" />
                   </button>
                   <span className="font-medium text-[0.7rem] md:text-[0.9rem] leading-[12px]">

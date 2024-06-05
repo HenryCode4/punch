@@ -37,10 +37,10 @@ const SectionC = () => {
           </p>
 
           <div className="flex gap-x-4 pt-6">
-            <button>
+            <button className="cursor-pointer hover:scale-105">
               <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={left} alt="direction" />
             </button>
-            <button>
+            <button className="cursor-pointer hover:scale-105">
               <img className="w-[35px] h-[35px] md:w-[49px] md:h-[49px]" src={right} alt="direction" />
             </button>
           </div>
