@@ -70,8 +70,8 @@ const SectionG = () => {
         </h4>
 
         <div className='flex gap-x-4'>
-            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] border-b'>Privacy Policy</p>
-            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] border-b'>Terms and Conditions</p>
+            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b'>Privacy Policy</p>
+            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b'>Terms and Conditions</p>
         </div>
       </div>
 
