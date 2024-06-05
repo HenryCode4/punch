@@ -65,13 +65,13 @@ const SectionG = () => {
         {/* footer  */}
         
       <div className='flex items-center justify-between px-10  lg:px-28  py-3 border-t border-gray-700'>
-        <h4 className='font-medium text-[0.7rem] md:text-[1rem] text-white/70 leading-[31px]'>
+        <h4 className='font-medium text-[0.7rem] md:text-[1rem] text-white/70 leading-[31px] md:border-b border-gray-700 '>
         All rights reserved  by Zwilt
         </h4>
 
         <div className='flex gap-x-4'>
-            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b'>Privacy Policy</p>
-            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b'>Terms and Conditions</p>
+            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b border-gray-700'>Privacy Policy</p>
+            <p className='text-[0.7rem] md:text-[1rem] text-white/50 font-medium leading-[20px] md:border-b border-gray-700'>Terms and Conditions</p>
         </div>
       </div>
 

@@ -329,6 +329,11 @@ const SectionB = () => {
               </h4>
 
               <div className="grid grid-cols-2 gap-4 w-full">
+              <div className="flex flex-col items-center space-y-2">
+                  <div className="rounded-full bg-[#f6f6f6] p-2 flex justify-center items-center w-12 h-12">
+                    <img src={arrow2} alt="direction" />
+                  </div>
+                </div>
                 {designIt.map((item, index) => (
                   <div
                     key={index}
@@ -351,11 +356,7 @@ const SectionB = () => {
                   </div>
                 ))}
 
-                <div className="flex flex-col items-center space-y-2">
-                  <div className="rounded-full bg-[#f6f6f6] p-2 flex justify-center items-center w-12 h-12">
-                    <img src={arrow2} alt="direction" />
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
